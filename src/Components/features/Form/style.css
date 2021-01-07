@@ -1,0 +1,64 @@
+.container.OrderForm{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container.OrderForm .wrappContainer{
+    width: 40%;
+}
+.container.OrderForm .wrappContainer .title{
+    text-align: center;
+    text-transform:uppercase;
+}
+.container.OrderForm .wrappItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+}
+.container.OrderForm .wrappItem .space{
+    width: 100%;
+    margin-left: 5%;
+}
+.container.OrderForm .wrappItem .MuiFormControl-root.MuiTextField-root{
+    width: 100%;
+}
+.container.OrderForm .wrappItem .MuiOutlinedInput-root {
+
+    border-radius: 0!important;
+}
+.container.OrderForm .submitForm{
+
+    display: flex;
+    justify-content: flex-end;
+}
+.container.OrderForm button.btn.btnSubmit {
+    padding: 10px 20px;
+    background: '#e9c46a';
+    border: none!important;
+    cursor: pointer;
+}
+.container.OrderForm button.btn.btnSubmit:focus {
+    outline: none;
+}   
+.container.OrderForm .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {           
+    outline: 2px solid rgba(255,255,255,.15);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,.15);
+    border-color: rgba(0, 0, 0, 0.23)!important;
+}
+.container.OrderForm .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(0, 0, 0, 0.23);
+}
+.container.OrderForm .MuiInputLabel-root.Mui-focused{
+    color: rgba(0, 0, 0, 0.54);
+}
+.container.OrderForm .MuiFormLabel-root.Mui-focused{
+    color: #b7b7a4!important;
+}
+.container.OrderForm .RadioForm .MuiFormGroup-root {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80%;
+}

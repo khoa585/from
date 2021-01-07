@@ -1,25 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Todo from "./features/todo/Todo";
+import React from "react";
+import FormTest from "./features/todo/FormTest";
+import OrderForm from "./features/Form/OrderForm";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    const handleSubmit = (value) => {
+        console.log("Form submit ", value);
+    }
+
+    return (
+        <div className="App">
+            {/*<Todo/>*/}
+            <OrderForm/>
+        </div>
+    );
 }
 
 export default App;
